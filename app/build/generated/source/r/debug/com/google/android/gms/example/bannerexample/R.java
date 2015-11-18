@@ -1655,19 +1655,20 @@ containing a value of this type.
         public static final int adjust_width=0x7f0c001c;
         public static final int alertTitle=0x7f0c0030;
         public static final int always=0x7f0c001d;
+        public static final int backgroundLayout=0x7f0c004f;
         public static final int beginning=0x7f0c0018;
         public static final int buttonPanel=0x7f0c0036;
         public static final int cancel_action=0x7f0c0054;
         public static final int checkbox=0x7f0c0038;
         public static final int chronometer=0x7f0c005a;
         public static final int collapseActionView=0x7f0c001e;
-        public static final int container=0x7f0c004f;
         public static final int contentPanel=0x7f0c0031;
         public static final int custom=0x7f0c0035;
         public static final int customPanel=0x7f0c0034;
         public static final int decor_content_parent=0x7f0c003e;
         public static final int default_activity_button=0x7f0c0029;
         public static final int disableHome=0x7f0c000c;
+        public static final int editText=0x7f0c0052;
         public static final int edit_query=0x7f0c0042;
         public static final int end=0x7f0c0019;
         public static final int end_padder=0x7f0c005f;
@@ -1690,7 +1691,6 @@ containing a value of this type.
         public static final int none=0x7f0c000e;
         public static final int normal=0x7f0c000a;
         public static final int parentPanel=0x7f0c002d;
-        public static final int pixelMan=0x7f0c0051;
         public static final int progress_circular=0x7f0c0005;
         public static final int progress_horizontal=0x7f0c0006;
         public static final int radio=0x7f0c003a;
@@ -1715,7 +1715,7 @@ containing a value of this type.
         public static final int src_atop=0x7f0c0015;
         public static final int src_in=0x7f0c0016;
         public static final int src_over=0x7f0c0017;
-        public static final int startButton=0x7f0c0052;
+        public static final int startButton=0x7f0c0051;
         public static final int status_bar_latest_event_content=0x7f0c0055;
         public static final int submit_area=0x7f0c004b;
         public static final int tabMode=0x7f0c000b;
@@ -1808,6 +1808,7 @@ containing a value of this type.
         public static final int auth_google_play_services_client_facebook_display_name=0x7f060033;
         public static final int auth_google_play_services_client_google_display_name=0x7f060034;
         public static final int banner_ad_unit_id=0x7f060035;
+        public static final int clickText=0x7f060036;
         public static final int common_android_wear_notification_needs_update_text=0x7f060011;
         public static final int common_android_wear_update_text=0x7f060012;
         public static final int common_android_wear_update_title=0x7f060013;
@@ -1838,13 +1839,13 @@ containing a value of this type.
         public static final int common_google_play_services_updating_text=0x7f06002c;
         public static final int common_google_play_services_updating_title=0x7f06002d;
         public static final int common_open_on_phone=0x7f06002e;
-        public static final int create_calendar_message=0x7f060036;
-        public static final int create_calendar_title=0x7f060037;
-        public static final int decline=0x7f060038;
-        public static final int startButton=0x7f060039;
+        public static final int create_calendar_message=0x7f060037;
+        public static final int create_calendar_title=0x7f060038;
+        public static final int decline=0x7f060039;
+        public static final int startButton=0x7f06003a;
         public static final int status_bar_notification_info_overflow=0x7f06002f;
-        public static final int store_picture_message=0x7f06003a;
-        public static final int store_picture_title=0x7f06003b;
+        public static final int store_picture_message=0x7f06003b;
+        public static final int store_picture_title=0x7f06003c;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08007a;

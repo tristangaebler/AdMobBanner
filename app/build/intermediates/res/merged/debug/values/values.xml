@@ -243,6 +243,7 @@
     <!-- From: file:/Users/tgae6529/Documents/workspace/AdMobBanner/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="clickText">Click the button</string>
     <!-- From: file:/Users/tgae6529/Documents/workspace/AdMobBanner/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/res/values/common_strings.xml -->
     <eat-comment/>
     <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
@@ -282,7 +283,7 @@
     <string name="decline">Decline</string>
     <!-- From: file:/Users/tgae6529/Documents/workspace/AdMobBanner/app/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="startButton">Start the Game</string>
+    <string name="startButton">CLick me</string>
     <!-- From: file:/Users/tgae6529/Documents/workspace/AdMobBanner/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>

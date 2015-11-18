@@ -23,20 +23,24 @@ import android.view.View;
 import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.VideoView;
 import android.media.session.MediaController;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import android.net.Uri;
+import android.graphics.Color;
 
 /**
  * Main Activity. Inflates main activity xml and child fragments.
  */
 public class MyActivity extends ActionBarActivity {
 
+    //Declaring all private data memebers
     private AdView myBannerAdd;
-    private ImageView pixelMan;
     private Button startButton;
+    private RelativeLayout background;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,9 +49,10 @@ public class MyActivity extends ActionBarActivity {
 
         // Gets the ad view defined in layout/ad_fragment.xml with ad unit ID set in
         // values/strings.xml.
+        //Initialize all of my data memebers
         myBannerAdd = (AdView) findViewById(R.id.ad_view);
-        pixelMan = (ImageView) findViewById(R.id.pixelMan);
         startButton = (Button) findViewById(R.id.startButton);
+        background = (RelativeLayout) findViewById(R.id.backgroundLayout);
         // Create an ad request. Check your logcat output for the hashed device ID to
         // get test ads on a physical device. e.g.
         // "Use AdRequest.Builder.addTestDevice("ABCDEF012345") to get test ads on this device."
@@ -57,6 +62,8 @@ public class MyActivity extends ActionBarActivity {
 
         // Start loading the ad in the background.
         myBannerAdd.loadAd(adRequest);
+
+        setUpListeners();
     }
 
     @Override
@@ -105,12 +112,39 @@ public class MyActivity extends ActionBarActivity {
         super.onDestroy();
     }
 
+    /**
+     * This method changes the background color of the app. We initialize values to represent colors and then set them to the background color.
+     *
+     */
+    private void changeBackgroundColor() {
+        int redColor;
+        int greenColor;
+        int blueColor;
+
+        //Making random colors
+        redColor = (int) (Math.random() * 256);
+        greenColor = (int) (Math.random() * 256);
+        blueColor = (int) (Math.random() * 256);
+
+        background.setBackgroundColor(Color.rgb(redColor, greenColor, blueColor));
+
+        redColor = (int) (Math.random() * 256);
+        greenColor = (int) (Math.random() * 256);
+        blueColor = (int) (Math.random() * 256);
+
+        startButton.setBackgroundColor(Color.rgb(redColor, blueColor, greenColor));
+    }
+
+    /**
+     * This method links the startButton to the changeBackgroundColor() method.
+     * This is the method that watches for clicks. If it "hears" a click
+     * it changes the background color.
+     */
     private void setUpListeners() {
         startButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                TranslateAnimation pixelMan = new TranslateAnimation(0.0f, 1.0f, 0.0f, 1.0f);
-                view.startAnimation(pixelMan);
+            public void onClick(View buttonView) {
+                //This is where the magic happens
+                changeBackgroundColor();
             }
         });
     }
