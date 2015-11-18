@@ -42,6 +42,10 @@ public class MyActivity extends ActionBarActivity {
     private Button startButton;
     private RelativeLayout background;
 
+    /**
+     * Will initialize all of my private data members and call setUpListeners()
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

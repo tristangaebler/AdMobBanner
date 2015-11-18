@@ -26,14 +26,15 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
-    <EditText
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/clickText"
+        android:id="@+id/clickText"
         android:layout_above="@+id/startButton"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="58dp"
-        android:text="@string/clickText" />
+        android:layout_marginBottom="53dp" />
 
 </RelativeLayout>
 <!-- From: file:/Users/tgae6529/Documents/workspace/AdMobBanner/app/src/main/res/layout/activity_my.xml -->

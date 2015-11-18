@@ -32,13 +32,13 @@
       <file leaf-file-name="MyActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/example/bannerexample/MyActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22569028">
-              <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+            <state vertical-scroll-proportion="-1.0888355">
+              <caret line="45" column="79" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
               <folding>
-                <element signature="e#0#5064#0" expanded="true" />
+                <element signature="e#0#5193#0" expanded="true" />
                 <element signature="imports" expanded="true" />
-                <element signature="e#4859#5053#0" expanded="true" />
-                <element signature="e#5052#5053#0" expanded="true" />
+                <element signature="e#4988#5182#0" expanded="true" />
+                <element signature="e#5181#5182#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-3.3333333">
-              <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -1532,8 +1532,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_my.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/google/android/gms/example/bannerexample/MyActivity.java" />
       </list>
     </option>
@@ -1968,10 +1968,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="81" column="13" selection-start-line="81" selection-start-column="13" selection-end-line="81" selection-end-column="13" />
           <folding>
-            <element signature="e#0#5064#0" expanded="true" />
+            <element signature="e#0#5193#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#4859#5053#0" expanded="true" />
-            <element signature="e#5052#5053#0" expanded="true" />
+            <element signature="e#4988#5182#0" expanded="true" />
+            <element signature="e#5181#5182#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2011,7 +2011,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.3333333">
-          <caret line="6" column="45" selection-start-line="6" selection-start-column="45" selection-end-line="6" selection-end-column="45" />
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
           <folding />
         </state>
       </provider>
@@ -2029,13 +2029,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/google/android/gms/example/bannerexample/MyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22569028">
-          <caret line="39" column="41" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        <state vertical-scroll-proportion="-1.0888355">
+          <caret line="45" column="79" selection-start-line="45" selection-start-column="79" selection-end-line="45" selection-end-column="79" />
           <folding>
-            <element signature="e#0#5064#0" expanded="true" />
+            <element signature="e#0#5193#0" expanded="true" />
             <element signature="imports" expanded="true" />
-            <element signature="e#4859#5053#0" expanded="true" />
-            <element signature="e#5052#5053#0" expanded="true" />
+            <element signature="e#4988#5182#0" expanded="true" />
+            <element signature="e#5181#5182#0" expanded="true" />
           </folding>
         </state>
       </provider>

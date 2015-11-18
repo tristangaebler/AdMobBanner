@@ -474,6 +474,7 @@ int id buttonPanel 0x7f0c0036
 int id cancel_action 0x7f0c0054
 int id checkbox 0x7f0c0038
 int id chronometer 0x7f0c005a
+int id clickText 0x7f0c0052
 int id collapseActionView 0x7f0c001e
 int id contentPanel 0x7f0c0031
 int id custom 0x7f0c0035
@@ -481,7 +482,6 @@ int id customPanel 0x7f0c0034
 int id decor_content_parent 0x7f0c003e
 int id default_activity_button 0x7f0c0029
 int id disableHome 0x7f0c000c
-int id editText 0x7f0c0052
 int id edit_query 0x7f0c0042
 int id end 0x7f0c0019
 int id end_padder 0x7f0c005f

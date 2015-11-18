@@ -1661,6 +1661,7 @@ containing a value of this type.
         public static final int cancel_action=0x7f0c0054;
         public static final int checkbox=0x7f0c0038;
         public static final int chronometer=0x7f0c005a;
+        public static final int clickText=0x7f0c0052;
         public static final int collapseActionView=0x7f0c001e;
         public static final int contentPanel=0x7f0c0031;
         public static final int custom=0x7f0c0035;
@@ -1668,7 +1669,6 @@ containing a value of this type.
         public static final int decor_content_parent=0x7f0c003e;
         public static final int default_activity_button=0x7f0c0029;
         public static final int disableHome=0x7f0c000c;
-        public static final int editText=0x7f0c0052;
         public static final int edit_query=0x7f0c0042;
         public static final int end=0x7f0c0019;
         public static final int end_padder=0x7f0c005f;
